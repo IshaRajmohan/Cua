@@ -1,0 +1,36 @@
+{
+    "name": "Basic Accessibility Test",
+    "description": "Tests basic accessibility features of a website",
+    "steps": [
+        {
+            "description": "Check if the page has a proper title element",
+            "expected": "The page should have a descriptive title",
+            "reasoning": "A title is important for SEO and accessibility, helping users understand the page content quickly."
+        },
+        {
+            "description": "Verify all images have alt text",
+            "expected": "All images should have alternative text descriptions",
+            "reasoning": "Alt text ensures that visually impaired users using screen readers can understand image content."
+        },
+        {
+            "description": "Check if form fields have associated labels",
+            "expected": "Input fields should have proper labels or aria-labels",
+            "reasoning": "Labels provide context to form fields, ensuring usability for screen readers."
+        },
+        {
+            "description": "Verify heading structure is hierarchical (h1 followed by h2, etc.)",
+            "expected": "Headings should follow a logical hierarchy",
+            "reasoning": "A proper heading structure improves page navigation and readability for all users, including those using assistive technology."
+        },
+        {
+            "description": "Check color contrast of text against backgrounds",
+            "expected": "Text should have sufficient contrast with its background",
+            "reasoning": "Good contrast ensures readability, especially for users with visual impairments."
+        },
+        {
+            "description": "Test keyboard navigation through main interactive elements",
+            "expected": "All interactive elements should be reachable and usable with keyboard",
+            "reasoning": "Keyboard accessibility is essential for users who cannot use a mouse, ensuring they can navigate the site effectively."
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Basic Login Test",
+  "description": "Tests the login functionality of a website",
+  "steps": [
+    {
+      "description": "Look for a login or sign-in button on the homepage and click it",
+      "expected": "A login form should appear with username/email and password fields"
+    },
+    {
+      "description": "Enter the username 'testuser@example.com' in the email/username field",
+      "expected": "The text should appear in the input field"
+    },
+    {
+      "description": "Enter the password 'testpassword' in the password field",
+      "expected": "The text should appear in the password field (likely masked)"
+    },
+    {
+      "description": "Click the login/submit button",
+      "expected": "The form should submit and either redirect to a dashboard or show an error message since these are test credentials"
+    },
+    {
+      "description": "Verify if login was successful or if an error message is displayed",
+      "expected": "Either we should see a dashboard/welcome page or an appropriate error message for invalid credentials"
+    }
+  ]
+}

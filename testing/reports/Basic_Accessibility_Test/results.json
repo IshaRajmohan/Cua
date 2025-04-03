@@ -1,0 +1,21 @@
+{
+  "test_name": "Basic Accessibility Test",
+  "status": "Error",
+  "start_time": "2025-04-03T13:35:15.306755",
+  "end_time": "2025-04-03T13:39:37.012615",
+  "duration_seconds": 261.70586,
+  "steps": [
+    {
+      "step": 1,
+      "description": "Initial page load",
+      "status": "Info",
+      "timestamp": "2025-04-03T13:35:23.877661"
+    },
+    {
+      "step": 2,
+      "description": "Error: Keyboard.down: Unknown key: \"PRINTSCREEN\"",
+      "status": "Fail",
+      "timestamp": "2025-04-03T13:39:37.012569"
+    }
+  ]
+}

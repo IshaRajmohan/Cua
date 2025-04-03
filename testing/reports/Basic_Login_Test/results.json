@@ -1,0 +1,45 @@
+{
+  "test_name": "Basic Login Test",
+  "status": "Fail",
+  "start_time": "2025-04-03T10:28:27.953818",
+  "end_time": "2025-04-03T10:41:21.865153",
+  "duration_seconds": 773.911335,
+  "steps": [
+    {
+      "step": 1,
+      "description": "Initial page load",
+      "status": "Info",
+      "timestamp": "2025-04-03T10:28:45.259629"
+    },
+    {
+      "step": 2,
+      "description": "Look for a login or sign-in button on the homepage and click it",
+      "status": "Pass",
+      "timestamp": "2025-04-03T10:36:10.952443"
+    },
+    {
+      "step": 3,
+      "description": "Enter the username 'testuser@example.com' in the email/username field",
+      "status": "Unknown",
+      "timestamp": "2025-04-03T10:38:55.157934"
+    },
+    {
+      "step": 4,
+      "description": "Enter the password 'testpassword' in the password field",
+      "status": "Pass",
+      "timestamp": "2025-04-03T10:40:04.737606"
+    },
+    {
+      "step": 5,
+      "description": "Click the login/submit button",
+      "status": "Fail",
+      "timestamp": "2025-04-03T10:40:51.331424"
+    },
+    {
+      "step": 6,
+      "description": "Verify if login was successful or if an error message is displayed",
+      "status": "Fail",
+      "timestamp": "2025-04-03T10:41:21.865081"
+    }
+  ]
+}
